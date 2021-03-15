@@ -1,0 +1,26 @@
+.App {
+    width: 50%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.Toastify__toast--error {
+  background-color: transparent !important;
+  box-shadow: 10px 10px rgba(0,0,0,.2);
+  border: 2px solid #000000;
+  color: #000000;
+  border-left: 10px solid red;
+
+}
+
+.Toastify__close-button svg path {
+  color: #000000;
+}
+
+.Toastify__toast--success {
+  background-color: transparent !important;
+  box-shadow: 10px 10px rgba(0,0,0,.2);
+  border: 2px solid #000000;
+  color: #000000;
+  border-left: 10px solid green;
+}
